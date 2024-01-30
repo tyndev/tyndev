@@ -1,2 +1,2 @@
 ### Hi there 👋
-- 🌱 Click [here](https://github.com/stars/tyndev/lists/practice) to see my GitHub list of projects for building software development skills through deliberate practice.
+- 🌱 [tyndev / lists / practice](https://github.com/stars/tyndev/lists/practice) are projects for building my software development skills through deliberate practice.
