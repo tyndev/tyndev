@@ -95,3 +95,11 @@ Book(title='Control Systems Engineering', author='Norman S. Nise', year=2015, ge
 Deciding when to use regular classes vs data classes is pretty straightforward. 
 - Use regular classes when you need to encapsulate complex behavior. 
 - Use data classes when you need to store data and want type hints. 
+
+## Other Features of Data Classes to Learn About
+- Default values
+- Excluding arguments from the initializer 
+- Use post_init to generate attributes
+- Private/protected members
+- Excluding data from the repr
+- Freezing a data class
