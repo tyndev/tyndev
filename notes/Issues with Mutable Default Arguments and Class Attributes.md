@@ -36,7 +36,7 @@ class SoccerTeam:
 ## Data Classes: Use Default Factory for Mutable Attributes
 **Issue**: Mutable default values in data classes is a similar issue to mutable class attributes.
 
-**Solution**: Initialize default mutable objects with the Default Factory which is part of the `field` function in Python's `Dataclasses`. 
+**Solution**: Initialize default mutable objects with the `default_factory` keyword arhguemnt which is part of the `field` function in Python's `Dataclasses`. 
 
 ```python
 from dataclasses import dataclass, field
