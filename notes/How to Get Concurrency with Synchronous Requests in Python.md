@@ -1,4 +1,4 @@
-
+# How to Get Concurrency with Synchronous Requests in Python
 Below is a summary of my learnings on concurrent programming with HTTP requests in Python as an example. 
 ## Types of Concurrency
 First, I think it is helpful to understand the difference between concurrency, asynchronous, and parallel. 
