@@ -31,15 +31,22 @@ The following code can be used to turn synchronous `requests` into asynchronous 
 import asyncio
 import requests
 
-JSON = int | str | float | bool | None | dict[str, "JSON"] | list["JSON"]
-JSONObject = dict[str, JSON]
-JSONList = list[JSON]
-
-def http_get_sync(url: str) -> JSONObject:
+"""
+Gets JSON data from a URL synchronously using requests.
+Args: url (str): The URL to send the GET request to.
+Returns: dict: The JSON response data.
+"""
+def http_get_sync(url: str):
     response = requests.get(url)
     return response.json()
 
-async def http_get(url: str) -> JSONObject:
+
+"""
+Gets JSON data from a URL asynchronously using asyncio.
+Args: url (str): The URL to send the GET request to.
+Returns: dict: The JSON response data.
+"""
+async def http_get(url: str):
     return await asyncio.to_thread(http_get_sync, url)
 ```
 
